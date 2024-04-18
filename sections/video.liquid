@@ -76,7 +76,7 @@
         {%- else -%}
           {{
             section.settings.video
-            | video_tag: image_size: '1100x', loop: section.settings.enable_video_looping, controls: true, muted: false
+            | video_tag: image_size: '1100x', loop: section.settings.enable_video_looping, controls: false, muted: false, autoplay: section.settings.enable_autoplay
           }}
         {%- endif -%}
       </div>
@@ -88,7 +88,16 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
-      <button
+      {{
+        section.settings.video
+        | video_tag:
+          image_size: '1100x',
+          autoplay: true,
+          loop: section.settings.enable_video_looping,
+          controls: false,
+          muted: true
+      }}
+      {% comment %} <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
         type="button"
@@ -139,11 +148,11 @@
               image_size: '1100x',
               autoplay: true,
               loop: section.settings.enable_video_looping,
-              controls: true,
+              controls: false,
               muted: false
           }}
         {%- endif -%}
-      </template>
+      </template> {% endcomment %}
     </deferred-media>
   </div>
 </div>
@@ -187,6 +196,12 @@
       "type": "checkbox",
       "id": "enable_video_looping",
       "label": "t:sections.video.settings.enable_video_looping.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "t:sections.video.settings.enable_autoplay.label",
       "default": false
     },
     {
