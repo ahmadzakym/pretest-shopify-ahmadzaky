@@ -25,10 +25,6 @@ slideshow-component .slideshow.banner {
   visibility: visible;
 }
 
-slideshow-component .slideshow__controls {
-  display: none;
-}
-
 @media screen and (max-width: 749px) {
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
