@@ -27,11 +27,13 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner1.jpg",
+        "image_2": "shopify:\/\/shop_images\/banner3.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
