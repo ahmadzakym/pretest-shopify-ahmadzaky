@@ -1,58 +1,42 @@
 {
   "sections": {
-    "slideshow_VpJMTL": {
-      "type": "slideshow",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "slide_hkgJfy": {
-          "type": "slide",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner1.jpg",
-            "heading": "It's Official",
-            "heading_size": "h1",
-            "subheading": "Our New Website",
-            "button_label": "Learn More",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "left"
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
           }
         },
-        "slide_KEV4dT": {
-          "type": "slide",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner3.jpg",
-            "heading": "Anker 737 Charger (GaNPrime 120W)",
-            "heading_size": "h1",
-            "subheading": "Power IQ 4.0 With Dynamic Power Distribution",
-            "button_label": "Learn More",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-3",
-            "text_alignment_mobile": "left"
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "slide_hkgJfy",
-        "slide_KEV4dT"
+        "heading",
+        "button"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -85,7 +69,7 @@
     }
   },
   "order": [
-    "slideshow_VpJMTL",
+    "image_banner",
     "featured_collection"
   ]
 }
