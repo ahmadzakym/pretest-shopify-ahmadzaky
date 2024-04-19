@@ -31,13 +31,76 @@
           "type": "newsletter",
           "settings": {
           }
+        },
+        "logo_list_eaLFfW": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anker_inovation.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_7P4Hgb": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ankerico.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_Yz9WPA": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eufy.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_Chqmja": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/soundcore.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_R7JUia": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ankermake.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_NN9aXL": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ankerwork.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "logo_list_YVRwfi": {
+          "type": "logo_list",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nebula.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "link_list_KkxEiH",
         "link_list_BdC3eB",
         "image_dkEG8Y",
-        "newsletter_9VGpgt"
+        "newsletter_9VGpgt",
+        "logo_list_eaLFfW",
+        "logo_list_7P4Hgb",
+        "logo_list_Yz9WPA",
+        "logo_list_Chqmja",
+        "logo_list_R7JUia",
+        "logo_list_NN9aXL",
+        "logo_list_YVRwfi"
       ],
       "settings": {
         "color_scheme": "scheme-1",
