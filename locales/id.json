@@ -512,12 +512,5 @@
       "expanded": "Formulir penerima voucher dibuka",
       "collapsed": "Formulir penerima voucher ditutup"
     }
-  },
-  "shopify": {
-    "checkout": {
-      "payment": {
-        "shop_pay_ideal_unavailable_error": "iDEAL tidak tersedia untuk pesanan ini. Pilih metode pembayaran lain."
-      }
-    }
   }
 }
