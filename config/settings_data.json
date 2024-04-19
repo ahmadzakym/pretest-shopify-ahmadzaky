@@ -385,5 +385,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".button {background: #0aabe2; color: #fff; gap: 10px; padding: 14px 80px;}"
+    ]
   }
 }
